@@ -1,3 +1,4 @@
+// Beforelaunch this file download all files bmplike ship asteroids lives from Internet
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 #include <fstream>
