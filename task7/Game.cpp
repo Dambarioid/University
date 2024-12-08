@@ -52,14 +52,14 @@ int main(int argc, char *argv[]) {
   SDL_Color fontColor = {255, 255, 255};
 
   // Загрузка текстур
-  SDL_Texture *first_live = loadTexture("./Assets/Lives.bmp", renderer);
-  SDL_Texture *second_live = loadTexture("./Assets/Lives.bmp", renderer);
-  SDL_Texture *third_live = loadTexture("./Assets/Lives.bmp", renderer);
+  SDL_Texture *first_live = loadTexture("Enter your live bmp", renderer);
+  SDL_Texture *second_live = loadTexture("Enter your live bmp", renderer);
+  SDL_Texture *third_live = loadTexture("Enter your live bmp", renderer);
   SDL_Texture *bonus;
-  SDL_Texture *bg = loadTexture("./Assets/ktQBX2.bmp", renderer);
-  SDL_Texture *ast = loadTexture("./Assets/asteroid.bmp", renderer);
-  SDL_Texture *ast2 = loadTexture("./Assets/asteroid.bmp", renderer);
-  SDL_Texture *ship = loadTexture("./Assets/gieo784eT.bmp", renderer);
+  SDL_Texture *bg = loadTexture("Enter your background bmp", renderer);
+  SDL_Texture *ast = loadTexture("Enter your asteroid bmp", renderer);
+  SDL_Texture *ast2 = loadTexture("Enter  your asteroid 2 bmp", renderer);
+  SDL_Texture *ship = loadTexture("Enter your bmp ship", renderer);
 
   // Проверка загрузки текстур
   if (!first_live || !second_live || !third_live || !bg || !ast || !ast2 || !ship) {
