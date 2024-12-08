@@ -1,0 +1,4 @@
+ Исправляем studio.h --> stdio.h
+ Исправляем int Main() --> int main()
+ Добавляем в 21 конец строки scanf("%d", &flat_number) знак ";"
+ Добавляем тернарный оператор flat_number % flats_per_floor == 0 ? flat_number / flats_per_floor : flat_number / flats_per_floor + 1
